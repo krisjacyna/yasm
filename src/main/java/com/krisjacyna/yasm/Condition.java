@@ -6,12 +6,12 @@ package com.krisjacyna.yasm;
  * @author Kris Jacyna
  */
 public interface Condition extends Identifiable {
-	
-	/**
-	 * Evaluates the given {@link Context}.
-	 * 
-	 * @param context the Context to evaluate
-	 * @return {@code true} if the Context passes the condition, {@code false} otherwise
-	 */
-	boolean evaluate(final Context context);
+    
+    /**
+     * Evaluates the given {@link Context}.
+     * 
+     * @param context the Context to evaluate
+     * @return {@code true} if the Context passes the condition, {@code false} otherwise
+     */
+    boolean evaluate(final Context context);
 }

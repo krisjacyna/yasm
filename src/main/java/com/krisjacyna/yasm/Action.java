@@ -7,10 +7,10 @@ package com.krisjacyna.yasm;
  */
 public interface Action extends Identifiable {
 
-	/**
-	 * Executes this {@link Action} on the given {@link Context}.
-	 * 
-	 * @param context the Context to action on
-	 */
-	void execute(final Context context);
+    /**
+     * Executes this {@link Action} on the given {@link Context}.
+     * 
+     * @param context the Context to action on
+     */
+    void execute(final Context context);
 }
